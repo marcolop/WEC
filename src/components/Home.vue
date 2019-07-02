@@ -1,14 +1,12 @@
 <template>
    <div class="carousel-landing">
-     <carousel class="desing" :data="data" :controls="true"></carousel>
+     <carousel class="desing" :data="data" :controls="false">
+     </carousel>
    </div>
 </template>
 <script>
 export default {
   name: 'Home',
-  components: {
-    // Form
-  },
   data () {
     return {
       data: [
@@ -21,14 +19,11 @@ export default {
 }
 </script>
 <style>
-.desing {
- margin-top: 0px;
-}
 .example-slide1 {
     align-items: center;
     background-color: #666;
     color: #999;
-    background:url('../assets/final.jpg');
+    background:url('../assets/1MARCO.png');
     display: flex;
     font-size: 1.5rem;
     justify-content: center;

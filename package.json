@@ -14,7 +14,8 @@
     "@chenfengyuan/vue-carousel": "^1.0.2",
     "vue": "^2.5.2",
     "vue-material": "^1.0.0-beta-11",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuelidate": "^0.7.4"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

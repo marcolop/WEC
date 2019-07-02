@@ -8,6 +8,7 @@ import {
   MdContent,
   MdTabs
 } from 'vue-material/dist/components'
+import Vuelidate from 'vuelidate'
 import VueMaterial from 'vue-material'
 import VueCarousel from '@chenfengyuan/vue-carousel'
 import 'vue-material/dist/vue-material.min.css'
@@ -15,6 +16,7 @@ import 'vue-material/dist/theme/default.css'
 
 Vue.config.productionTip = false
 Vue.use(VueMaterial)
+Vue.use(Vuelidate)
 Vue.use(VueCarousel)
 Vue.component(VueCarousel.name, VueCarousel)
 Vue.use(MdButton)

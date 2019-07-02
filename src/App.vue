@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <navbar class="margin"></navbar>
+    <navbar></navbar>
     <router-view/>
     <Card></Card>
     <Beneficios/>
-    <Info/>
+     <Info></Info>
     <Empezar/>
     <Wec/>
     <Planes/>
@@ -21,12 +21,14 @@ import Empezar from '@/components/Empezar'
 import Wec from '@/components/Wec'
 import Planes from '@/components/Planes'
 import Footer from '@/components/Footer'
+import Form from '@/components/Form'
 
 export default {
   name: 'App',
   components: {
     Navbar,
     Card,
+    Form,
     Beneficios,
     Info,
     Empezar,
@@ -38,15 +40,12 @@ export default {
 </script>
 
 <style>
-.margin {
-  margin-top: -100px;
-}
-#app {
+html, body, #app {
+  overflow-x: hidden;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 100px;
 }
 </style>
