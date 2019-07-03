@@ -23,7 +23,7 @@ export default {
     align-items: center;
     background-color: #666;
     color: #999;
-    background:url('../assets/1MARCO.png');
+    background:url('../assets/6.jpg');
     display: flex;
     font-size: 1.5rem;
     justify-content: center;
@@ -33,7 +33,7 @@ export default {
     align-items: center;
     background-color: #666;
     color: #999;
-    background:url('../assets/uusa.png');
+    background:url('../assets/7.jpg');
     display: flex;
     font-size: 1.5rem;
     justify-content: center;
@@ -43,7 +43,7 @@ export default {
     align-items: center;
     background-color: #666;
     color: #999;
-    background:url('../assets/paris.png');
+    background:url('../assets/8.jpg');
     display: flex;
     font-size: 1.5rem;
     justify-content: center;

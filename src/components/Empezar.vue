@@ -11,6 +11,8 @@ export default {
       images: [
         {url: require('../assets/5MARCO.jpg')},
         {url: require('../assets/4MARCO.jpg')},
+        {url: require('../assets/1MARCO@2x.png')},
+        {url: require('../assets/2MARCO.jpg')},
         {url: require('../assets/3MARCO.jpg')},
         {url: require('../assets/6MARCO.jpg')}
       ]
@@ -26,7 +28,7 @@ img:hover {
   display: grid;
   grid-column-start: 1;
   grid-row-end: 2;
-  margin-top: 600px;
+  margin-top: 650px;
   margin-left: 15px;
   column-gap: 20px;
 }

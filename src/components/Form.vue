@@ -11,8 +11,8 @@
               <md-field :class="getValidationClass('firstName')">
                 <label for="first-name">Nombre</label>
                 <md-input name="first-name" id="first-name" autocomplete="given-name" v-model="form.firstName" :disabled="sending" />
-                <span class="md-error" v-if="!$v.form.firstName.required">The first name is required</span>
-                <span class="md-error" v-else-if="!$v.form.firstName.minlength">Invalid first name</span>
+                <span class="md-error" v-if="!$v.form.firstName.required">El nombre es requerido</span>
+                <span class="md-error" v-else-if="!$v.form.firstName.minlength">el nombre es invalido</span>
               </md-field>
             </div>
 
@@ -20,8 +20,8 @@
               <md-field :class="getValidationClass('lastName')">
                 <label for="last-name">Apellidos</label>
                 <md-input name="last-name" id="last-name" autocomplete="family-name" v-model="form.lastName" :disabled="sending" />
-                <span class="md-error" v-if="!$v.form.lastName.required">The last name is required</span>
-                <span class="md-error" v-else-if="!$v.form.lastName.minlength">Invalid last name</span>
+                <span class="md-error" v-if="!$v.form.lastName.required">El apellido es requerido</span>
+                <span class="md-error" v-else-if="!$v.form.lastName.minlength">es invalido el apellido</span>
               </md-field>
             </div>
           </div>
@@ -34,10 +34,10 @@
                   <md-option></md-option>
                   <md-option value="Ingles">Ingles</md-option>
                   <md-option value="Español">Español</md-option>
-                  <md-option value="Frances">Frances</md-option>
-                  <md-option value="Aleman">Aleman</md-option>
+                  <md-option value="Frances">Chino</md-option>
+                  <md-option value="Aleman">Italiano</md-option>
                 </md-select>
-                <span class="md-error">The gender is required</span>
+                <span class="md-error">el idioma es requerido</span>
               </md-field>
             </div>
 
@@ -45,7 +45,7 @@
               <md-field :class="getValidationClass('age')">
                 <label for="age">Age</label>
                 <md-input type="number" id="age" name="age" autocomplete="age" v-model="form.age" :disabled="sending" />
-                <span class="md-error" v-if="!$v.form.age.required">The age is required</span>
+                <span class="md-error" v-if="!$v.form.age.required">La edad es requerida</span>
                 <span class="md-error" v-else-if="!$v.form.age.maxlength">Edad Invalida</span>
               </md-field>
             </div>
@@ -150,8 +150,8 @@ export default {
 </script>
 <style scoped>
 .md-mover2{
-    margin-top: -1060px;
-    width: 100%;
+    margin-top: -1050px;
+    width: 900px;
     height: 70%;
     margin-left: 100%;
   }

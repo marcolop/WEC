@@ -2,7 +2,7 @@
   <div class="beneficios-class">
      <h1 class="bajar-h1">Nuestra metodología</h1>
      <div class="grid-container">
-       <div class="hovereffect hovereffect12">
+       <div class="hovereffect">
          <h1>Maestros</h1>
           <div class="overlay">
             <p>Maestros con amplia experiencia en la enseñanza de tu idioma</p>
@@ -48,7 +48,7 @@ export default {
   position: relative;
   text-align: center;
   cursor: default;
-  background: #42b078;
+  background: #676767;
 }
 
 .hovereffect1 .overlay {
@@ -67,7 +67,7 @@ export default {
   max-width: none;
   width: calc(100% + 20px);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 035s;
   -webkit-transform: translate3d(-10px,0,0);
   transform: translate3d(-10px,0,0);
   -webkit-backface-visibility: hidden;
@@ -151,7 +151,7 @@ export default {
 .beneficios-class
 {
   margin-top: 100px;
-  background-color:#B09A57;
+  background-color:#676767;
   padding-bottom: 100px;
 }
 </style>
