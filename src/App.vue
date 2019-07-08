@@ -9,6 +9,8 @@
     <Wec/>
     <Planes/>
     <Footer/>
+     <a class="lgscreenphone phonelink" href="https://www.youtube.com/channel/UCQQ9KdZl80R78hZjb8Q_3NQ"><img class="phoneicon" src="https://freeiconshop.com/wp-content/uploads/edd/phone-flat.png"></a>
+     <a class="mbscreenphone phonelink" href="tel:8112341090"><img class="phoneicon" src="https://freeiconshop.com/wp-content/uploads/edd/phone-flat.png"></a>
   </div>
 </template>
 
@@ -47,5 +49,31 @@ html, body, #app {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.phonelink {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 30px;
+}
+.phoneicon {
+  width: 40px;
+  height: 40px;
+}
+@media screen and (max-width: 480px;){
+  .lgsscreenphone {
+    display: none;
+  }
+  .mbscreenphone {
+    display: block;
+  }
+}
+@media screen and (max-width: 481px;){
+  .lgsscreenphone {
+    display: none;
+  }
+  .mbscreenphone {
+    display: block;
+  }
 }
 </style>

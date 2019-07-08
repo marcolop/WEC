@@ -56,6 +56,9 @@
             <span class="md-error" v-if="!$v.form.email.required">El email es obligatorio</span>
             <span class="md-error" v-else-if="!$v.form.email.email">Correo Invalido</span>
           </md-field>
+          <div class="input">
+            <label><input type="checkbox">Acepto publicidad en mi correo</label>
+          </div>
         </md-card-content>
         <md-progress-bar md-mode="indeterminate" v-if="sending" />
         <md-card-actions>
@@ -150,7 +153,7 @@ export default {
 </script>
 <style scoped>
 .md-mover2{
-    margin-top: -1050px;
+    margin-top: -1055px;
     width: 900px;
     height: 70%;
     margin-left: 100%;
