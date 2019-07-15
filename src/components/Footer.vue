@@ -31,7 +31,6 @@ export default {
   name: 'Footer',
   data () {
     return {
-
     }
   }
 }
@@ -48,7 +47,7 @@ export default {
 }
 .copy {
   position: relative;
-  top: 95px;
+  top: 50px;
 }
 .estilo-email {
   width: 30px;
@@ -99,8 +98,8 @@ export default {
   font-size: 30px;
   color: white;
 }
- .color-division{
-   padding-bottom: 100px;
+ .color-division {
+   padding-bottom: 50px;
    background-color:#676767;
    color: white;
  }

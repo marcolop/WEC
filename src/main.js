@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Chat from 'vue-beautiful-chat'
 import {
   MdButton,
   MdContent,
@@ -20,6 +21,7 @@ Vue.use(Vuelidate)
 Vue.use(VueCarousel)
 Vue.component(VueCarousel.name, VueCarousel)
 Vue.use(MdButton)
+Vue.use(Chat)
 Vue.use(MdContent)
 Vue.use(MdTabs)
 /* eslint-disable no-new */

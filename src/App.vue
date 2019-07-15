@@ -7,10 +7,12 @@
      <Info></Info>
     <Empezar/>
     <Wec/>
+    <Mejor/>
     <Planes/>
     <Footer/>
      <a class="lgscreenphone phonelink" href="https://www.youtube.com/channel/UCQQ9KdZl80R78hZjb8Q_3NQ"><img class="phoneicon" src="https://freeiconshop.com/wp-content/uploads/edd/phone-flat.png"></a>
      <a class="mbscreenphone phonelink" href="tel:8112341090"><img class="phoneicon" src="https://freeiconshop.com/wp-content/uploads/edd/phone-flat.png"></a>
+    <Chat/>
   </div>
 </template>
 
@@ -21,6 +23,8 @@ import Beneficios from '@/components/Beneficios'
 import Info from '@/components/Info'
 import Empezar from '@/components/Empezar'
 import Wec from '@/components/Wec'
+import Mejor from '@/components/Mejor'
+import Chat from '@/components/Chat'
 import Planes from '@/components/Planes'
 import Footer from '@/components/Footer'
 import Form from '@/components/Form'
@@ -36,6 +40,8 @@ export default {
     Empezar,
     Wec,
     Planes,
+    Mejor,
+    Chat,
     Footer
   }
 }
@@ -55,10 +61,11 @@ html, body, #app {
   bottom: 0;
   right: 0;
   margin: 30px;
+  margin-right: 70px;
 }
 .phoneicon {
-  width: 40px;
-  height: 40px;
+  width: 20%;
+  height: 10%;
 }
 @media screen and (max-width: 480px;){
   .lgsscreenphone {

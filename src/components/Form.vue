@@ -1,6 +1,6 @@
 <template>
   <div class="md-mover2">
-    <form novalidate class="md-layout" @submit.prevent="validateUser">
+    <form novalidate class="md-layout" @submit.prevent="validateUser, register">
       <md-card class="md-layout-item md-size-50 md-small-size-100">
         <md-card-header>
           <div class="md-title">Contactanos</div>
@@ -116,6 +116,9 @@ export default {
     }
   },
   methods: {
+    // register () {
+    // firebase.auth().createrUserWithEmailAndPassword(this.email, this.password)
+    // },
     getValidationClass (fieldName) {
       const field = this.$v.form[fieldName]
       if (field) {

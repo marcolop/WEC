@@ -12,7 +12,11 @@
   },
   "dependencies": {
     "@chenfengyuan/vue-carousel": "^1.0.2",
+    "firebase": "^6.2.4",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
     "vue": "^2.5.2",
+    "vue-beautiful-chat": "^2.2.2",
     "vue-material": "^1.0.0-beta-11",
     "vue-router": "^3.0.1",
     "vuelidate": "^0.7.4"

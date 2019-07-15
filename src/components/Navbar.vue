@@ -16,7 +16,11 @@
 </template>
 <script>
 export default {
-  name: 'Navbar'
+  name: 'Navbar',
+  data () {
+    return {
+    }
+  }
 }
 </script>
 
@@ -32,8 +36,5 @@ export default {
  width:  75px;
  height: 75px;
  margin-left: 50px;
-}
-.md-primary {
-  color: red;
 }
 </style>

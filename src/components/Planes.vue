@@ -23,8 +23,8 @@ export default {
 <style>
 .container-class {
   display:grid;
-  grid-template-columns: 25% 25% 25%;
-  column-gap: 50px;
-  margin-left: 200px;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 10px;
+  margin-left: 90px;
 }
 </style>
