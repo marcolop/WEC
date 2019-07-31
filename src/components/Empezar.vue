@@ -26,9 +26,8 @@ img:hover {
 }
 .container3 {
   display: grid;
-  grid-column-start: 1;
-  grid-row-end: 2;
-  margin-top: 650px;
+  position: relative;
+  top: -300px;
   margin-left: 15px;
   column-gap: 20px;
 }

@@ -28,9 +28,9 @@
 
           <div class="md-layout md-gutter">
             <div class="md-layout-item md-small-size-100">
-              <md-field :class="getValidationClass('gender')">
-                <label for="gender">Idioma</label>
-                <md-select name="gender" id="gender" v-model="form.gender" md-dense :disabled="sending">
+              <md-field :class="getValidationClass('idioma')">
+                <label for="idioma">Idioma</label>
+                <md-select name="idioma" id="idioma" v-model="form.idioma" md-dense :disabled="sending">
                   <md-option></md-option>
                   <md-option value="Ingles">Ingles</md-option>
                   <md-option value="Español">Español</md-option>
@@ -84,7 +84,7 @@ export default {
     form: {
       firstName: null,
       lastName: null,
-      gender: null,
+      idioma: null,
       age: null,
       email: null
     },
@@ -106,7 +106,7 @@ export default {
         required,
         maxLength: maxLength(3)
       },
-      gender: {
+      idioma: {
         required
       },
       email: {
@@ -116,9 +116,6 @@ export default {
     }
   },
   methods: {
-    // register () {
-    // firebase.auth().createrUserWithEmailAndPassword(this.email, this.password)
-    // },
     getValidationClass (fieldName) {
       const field = this.$v.form[fieldName]
       if (field) {
@@ -132,11 +129,12 @@ export default {
       this.form.firstName = null
       this.form.lastName = null
       this.form.age = null
-      this.form.gender = null
+      this.form.idioma = null
       this.form.email = null
     },
     saveUser () {
       this.sending = true
+      // firebase.database().ref('formulario').push().set(this.sending)
       // Instead of this timeout, here you can call your API
       window.setTimeout(() => {
         this.lastUser = `${this.form.firstName} ${this.form.lastName}`
@@ -156,7 +154,8 @@ export default {
 </script>
 <style scoped>
 .md-mover2{
-    margin-top: -1055px;
+    position: relative;
+    top:  -1130px;
     width: 900px;
     height: 70%;
     margin-left: 100%;

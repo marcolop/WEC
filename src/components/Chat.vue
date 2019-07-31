@@ -15,7 +15,7 @@
       :colors="colors"
       :alwaysScrollToBottom="alwaysScrollToBottom"
       :messageStyling="messageStyling"
-      @onType="handleOnType" />
+      @onType="handleOnType"/>
   </div>
 </template>
 <script>
@@ -32,29 +32,29 @@ export default {
         {
           id: 'user2',
           name: 'Support',
-          imageUrl: 'https://avatars3.githubusercontent.com/u/37018832?s=200&v=4'
+          imageUrl: require('../assets/icons8-user-male-100.png')
         }
       ], // the list of all the participant of the conversation. `name` is the user name, `id` is used to establish the author of a message, `imageUrl` is supposed to be the user avatar.
-      titleImageUrl: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0001-34.png',
+      titleImageUrl: require('../assets/icons8-user-male-100.png'),
       messageList: [
         { type: 'text', author: `me`, data: { text: `Hola podemos ayudarte en algo?` } }
       ], // the list of the messages to show, can be paginated and adjusted dynamically
       newMessagesCount: 0,
-      isChatOpen: true, // to determine whether the chat window should be open or closed
+      isChatOpen: false, // to determine whether the chat window should be open or closed
       showTypingIndicator: '', // when set to a value matching the participant.id it shows the typing indicator for the specific user
       colors: {
         header: {
-          bg: '#4e8cff',
+          bg: '#972420',
           text: '#ffffff'
         },
         launcher: {
-          bg: '#4e8cff'
+          bg: '#972420'
         },
         messageList: {
           bg: '#ffffff'
         },
         sentMessage: {
-          bg: '#4e8cff',
+          bg: '#972420',
           text: '#ffffff'
         },
         receivedMessage: {

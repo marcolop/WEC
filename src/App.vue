@@ -3,7 +3,7 @@
     <navbar></navbar>
     <router-view/>
     <Card></Card>
-    <Beneficios/>
+    <Metodologia/>
      <Info></Info>
     <Empezar/>
     <Wec/>
@@ -19,7 +19,7 @@
 <script>
 import Navbar from './components/Navbar.vue'
 import Card from '@/components/Card'
-import Beneficios from '@/components/Beneficios'
+import Metodologia from '@/components/Metodologia'
 import Info from '@/components/Info'
 import Empezar from '@/components/Empezar'
 import Wec from '@/components/Wec'
@@ -35,7 +35,7 @@ export default {
     Navbar,
     Card,
     Form,
-    Beneficios,
+    Metodologia,
     Info,
     Empezar,
     Wec,
@@ -61,7 +61,7 @@ html, body, #app {
   bottom: 0;
   right: 0;
   margin: 30px;
-  margin-right: 70px;
+  margin-right: 20px;
 }
 .phoneicon {
   width: 20%;
