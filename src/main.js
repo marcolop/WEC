@@ -2,7 +2,6 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import Firebase from 'firebase'
 import router from './router'
 import Chat from 'vue-beautiful-chat'
 import {
@@ -25,15 +24,15 @@ Vue.use(MdButton)
 Vue.use(Chat)
 Vue.use(MdContent)
 Vue.use(MdTabs)
-Vue.use(Firebase)
+// Vue.use(Firebase)
 // config firebase database
-const config = {
-  apiKey: 'AIzaSyDXIjlj-sTDLunH_Ug4JjqlJXGJyHXlL78',
-  authDomain: 'vue-school-chat-room-c944d.firebaseapp.com',
-  databaseURL: 'https://vue-school-chat-room-c944d.firebaseio.com',
-  projectId: 'vue-school-chat-room-c944d'
-}
-firebase.initializeApp(config)
+// const config = {
+// apiKey: 'AIzaSyDXIjlj-sTDLunH_Ug4JjqlJXGJyHXlL78',
+// authDomain: 'vue-school-chat-room-c944d.firebaseapp.com',
+// databaseURL: 'https://vue-school-chat-room-c944d.firebaseio.com',
+// projectId: 'vue-school-chat-room-c944d'
+//  }
+// firebase.initializeApp(config)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
